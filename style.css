@@ -3,3 +3,44 @@ body {
   height: 100%;
   margin: 0;
 }
+/* Update header */
+header {
+  text-align: center;
+}
+
+/* Center image */
+img {
+  display: block;
+  margin: auto;
+}
+
+/* Jazz up navigation links */
+nav a {
+  padding: 10px;
+  background-color: grey;
+}
+
+/* Update image caption */
+figcaption {
+  font-size: smaller;
+  text-align: center;
+}
+
+/* Update text block */
+#featured-property p {
+  width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* Make details section horizontal */
+#details div {
+  float: left;
+  width: 25%;
+}
+
+/* Finishing touch */
+#details div, #footer div {
+  background-color: lightgrey;
+  text-align: center;
+}
